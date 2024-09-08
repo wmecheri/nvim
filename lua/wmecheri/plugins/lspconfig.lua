@@ -21,9 +21,6 @@ return {
             function(server_name)
                 lspconfig[server_name].setup({})
             end,
-            tsserver = function()
-                lspconfig.ts_sl.setup({})
-            end,
         })
     end,
 }
