@@ -22,7 +22,7 @@ return {
                 lspconfig[server_name].setup({})
             end,
             tsserver = function()
-                lspconfig.ts_ls.setup({})
+                lspconfig.ts_sl.setup({})
             end,
         })
     end,
