@@ -30,4 +30,4 @@ opt.backspace = "indent,eol,start"
 opt.clipboard:append("unnamedplus")
 
 -- fileformat
-opt.fileformat = "unix"
+opt.fileformats = { 'unix', 'dos' }
