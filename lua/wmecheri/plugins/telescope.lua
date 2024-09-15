@@ -15,12 +15,9 @@ return {
                 initial_mode = "normal",            }
         })
         telescope.load_extension("fzf")
-    
+
         vim.keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>")
         vim.keymap.set("n", "<leader>fr", "<cmd>Telescope oldfiles<cr>")
-        vim.keymap.set("n", "<leader>fg", "<cmd>Telescope git_files<cr>")
         vim.keymap.set("n", "<leader>fd", "<cmd>Telescope live_grep<cr>")
-
-    
     end
 }
