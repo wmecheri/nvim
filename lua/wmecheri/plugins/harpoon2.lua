@@ -27,7 +27,7 @@ return {
         keymap.set("n", "<leader>é", function() harpoon:list():select(2) end)
         keymap.set("n", '<leader>"', function() harpoon:list():select(3) end)
         keymap.set("n", "<leader>'", function() harpoon:list():select(4) end)
-        keymap.set("n", "<leader>(", function() harpoon:list():select(4) end)
+        keymap.set("n", "<leader>(", function() harpoon:list():select(5) end)
 
         -- Toggle previous & next buffers stored within Harpoon list
         keymap.set("n", "<leader>k", function() harpoon:list():prev() end)
