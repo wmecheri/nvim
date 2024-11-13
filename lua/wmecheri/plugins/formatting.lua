@@ -8,6 +8,7 @@ return {
 			formatters_by_ft = {
 				javascript = { "prettier" },
 				javascriptreact = { "prettier" },
+				java = { "google-java-format" },
 				css = { "prettier" },
 				html = { "prettier" },
 				json = { "prettier" },

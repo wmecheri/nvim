@@ -8,6 +8,8 @@ return {
 			javascript = { "eslint_d" },
 			python = { "pylint" },
 			html = { "htmlhint", "eslint_d" },
+			css = { "stylelint" },
+			sql = { "sqlfluff" },
 		}
 
 		local lint_augroup = vim.api.nvim_create_augroup("lint", { clear = true })

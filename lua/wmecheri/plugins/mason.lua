@@ -26,18 +26,24 @@ return {
 				"lua_ls",
 				"pyright",
 				"html",
+				"cssls",
+				"jdtls",
 			},
 		})
 
 		mason_tool_installer.setup({
+			-- list of linter and formater for mason to install
 			ensure_installed = {
-				"prettier", -- prettier formatter
-				"stylua", -- lua formatter
-				"isort", -- python formatter
-				"black", -- python formatter
+				"prettier",
+				"stylua",
+				"isort",
+				"black",
 				"pylint",
 				"eslint_d",
 				"htmlhint",
+				"stylelint",
+				"sqlfluff",
+				"google-java-format",
 			},
 		})
 	end,

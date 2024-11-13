@@ -1,0 +1,2 @@
+- fix js inside html <scrypt>
+- fix css linting
